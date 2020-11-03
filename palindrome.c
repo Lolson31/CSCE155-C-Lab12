@@ -26,7 +26,8 @@ int main(int argc, char **argv)
   if (isPal)
   {
     printf("%s is a palindrome!\n", argv[1]);
-  } else
+  }
+  else
   {
     printf("%s is NOT a palindrome!\n", argv[1]);
   }
@@ -35,9 +36,9 @@ int main(int argc, char **argv)
 
 int isPalindrome(const char *str, int leftIndex, int rightIndex)
 {
-    if (leftIndex = rightIndex)
+    if (leftIndex == rightIndex)
     {
-      return (0);
+      return (1);
     }
     else if (str[leftIndex] == str[rightIndex])
     {
@@ -45,6 +46,6 @@ int isPalindrome(const char *str, int leftIndex, int rightIndex)
     }
     else
     {
-      return (1);
+      return (0);
     }
 }

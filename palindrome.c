@@ -13,21 +13,38 @@
  */
 int isPalindrome(const char *str, int leftIndex, int rightIndex);
 
-int main(int argc, char **argv) {
-  if (argc != 2) {
+int main(int argc, char **argv)
+{
+  if (argc != 2)
+  {
     printf("Usage: isPalindrome word\n");
     exit(1);
   }
 
   int isPal = isPalindrome(argv[1], 0, strlen(argv[1]) - 1);
-  if (isPal) {
+
+  if (isPal)
+  {
     printf("%s is a palindrome!\n", argv[1]);
-  } else {
+  } else
+  {
     printf("%s is NOT a palindrome!\n", argv[1]);
   }
   return 0;
 }
 
-int isPalindrome(const char *str, int leftIndex, int rightIndex) {
-  // TODO: implement this function as specified
+int isPalindrome(const char *str, int leftIndex, int rightIndex)
+{
+    if (leftIndex = rightIndex)
+    {
+      return (1);
+    }
+    else if (str[leftIndex] == str[rightIndex])
+    {
+      return (isPalindrome(str, leftIndex - 1, rightIndex - 1));
+    }
+    else
+    {
+      return (0);
+    }
 }

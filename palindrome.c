@@ -42,7 +42,7 @@ int isPalindrome(const char *str, int leftIndex, int rightIndex)
     }
     else if (str[leftIndex] == str[rightIndex])
     {
-      return (isPalindrome(str, leftIndex - 1, rightIndex - 1));
+      return (isPalindrome(str, leftIndex + 1, rightIndex - 1));
     }
     else
     {

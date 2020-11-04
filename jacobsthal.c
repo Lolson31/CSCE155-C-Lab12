@@ -39,6 +39,6 @@
    }
    else
    {
-     result = jacobsthal(currTerm) + jacobsthal((currTerm + 1) * 2);
+     return result = jacobsthal(currTerm) + jacobsthal((currTerm + 1) * 2);
    }
  }

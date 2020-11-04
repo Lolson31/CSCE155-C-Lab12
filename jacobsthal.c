@@ -31,9 +31,6 @@
 
  int jacobsthal(int term)
  {
-   int currTerm = 0;
-   int result = 0;
-
    if (term == 0)
    {
      return (0);

@@ -14,7 +14,7 @@
  {
    if (argc != 2)
    {
-     printf("Too few inputs, use like this: ./a.out "I enjoy walks"\n");
+     printf("Invalid amount of inputs\n");
      exit (1);
    }
 

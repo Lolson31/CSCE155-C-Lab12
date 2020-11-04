@@ -23,7 +23,7 @@
    return 0;
  }
 
- void suffix(char *input)
+ void suffix(const char *input)
  {
    int leftIndex = 0;
    int rightIndex = strlen(input);

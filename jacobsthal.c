@@ -28,7 +28,7 @@
  {
    int currTerm = 0;
    int result = 0;
-   if (currTerm = term)
+   if (currTerm == term)
    {
      return (result);
    }

@@ -29,14 +29,14 @@
 
    if (leftIndex == rightIndex)
    {
-     printf("%s\n", input[leftIndex]);
+     printf("%d\n", input[leftIndex]);
      exit (1);
    }
    else
    {
      for (int i = leftIndex; i < rightIndex; i++)
      {
-       printf("ds\n", input[i]);
+       printf("%d\n", input[i]);
      }
      leftIndex++;
    }

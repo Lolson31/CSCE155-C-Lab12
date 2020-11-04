@@ -36,9 +36,8 @@
    {
      for (int i = leftIndex; i < rightIndex; i++)
      {
-       printf("%s\n", input[i]);
+       printf("ds\n", input[i]);
      }
      leftIndex++;
    }
-   printf("");
  }

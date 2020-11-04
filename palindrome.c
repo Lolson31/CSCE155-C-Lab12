@@ -36,7 +36,7 @@ int main(int argc, char **argv)
 
 int isPalindrome(const char *str, int leftIndex, int rightIndex)
 {
-    if ((leftIndex - 1) == rightIndex)
+    if ((leftIndex + 1) == rightIndex)
     {
       return (1);
     }

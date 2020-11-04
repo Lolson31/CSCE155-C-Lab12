@@ -8,7 +8,7 @@
  #include <stdlib.h>
  #include <string.h>
 
- void suffix(char *input);
+ void suffix(const char *input);
 
  int main(int argc, char const *argv[])
  {

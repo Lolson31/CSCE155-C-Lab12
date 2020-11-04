@@ -33,12 +33,17 @@
  {
    int currTerm = 0;
    int result = 0;
-   if (currTerm == term)
+
+   if (term == 0)
    {
-     return (result);
+     return (0);
+   }
+   else if (term == 1)
+   {
+     return (1);
    }
    else
    {
-     return result = jacobsthal(currTerm) + jacobsthal((currTerm + 1) * 2);
+     return (jacobsthal(term - 1) + (2 * jacobsthal(term - 2)));
    }
  }

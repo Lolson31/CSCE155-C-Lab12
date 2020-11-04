@@ -8,6 +8,11 @@
  #include <stdlib.h>
  #include <string.h>
 
+ /**
+  * finds the nth term of a jacobsthal series
+  */
+ int jacobsthal(int term);
+
  int main(int argc, char const *argv[])
  {
    if (argc != 2)

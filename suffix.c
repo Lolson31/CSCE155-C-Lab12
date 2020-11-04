@@ -18,6 +18,7 @@
      exit (1);
    }
 
+   suffix (argv[1]);
 
    return 0;
  }
